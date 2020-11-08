@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 20px 35px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: orange;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+header a {
+    color: orange;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+.hero {
+    background-image: url("../images/Yu4w6N.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.hero h2 {
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    font-size: 25px;
+}
+
+.key-word {
+    font-size: 50px;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: none;
+    align-items: center;
+    height: 150px;
+    background-color: black;
+    color: #cc5500;
+}
+
+.intro h2 {
+    width: 30%;
+    text-align: right;
+    padding: 20px;
+}
+
+.intro p {
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+
+.vl {
+    border-left: 6px solid orange;
+    height: 100px;
+}
+
+.work {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: none;
+    align-items: center;
+    height: 300px;
+    background-color: black;
+    color: #cc5500;
+}
+
+.work h2 {
+    width: 30%;
+    text-align: right;
+    padding: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: none;
+    align-items: center;
+    height: 150px;
+    background-color: black;
+    color: #cc5500;
+}
+
+.contact h2 {
+    width: 30%;
+    text-align: right;
+    padding: 20px;
+}
+
+.contact nav {
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.contact nav ul li {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+.contact nav ul li a:visited {
+    color: #cc5500;   
+}
