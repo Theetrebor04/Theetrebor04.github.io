@@ -17,4 +17,4 @@
 
 [Click Me](https://theetrebor04.github.io/) Current LIVE Application
 
-![Screenshot](assets/images/)
+![Screenshot](./assets/images/screenshot.png)

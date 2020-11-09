@@ -131,10 +131,18 @@ header nav {
 }
 
 .work-examples {
+    background-image: url("../images/runbuddy.PNG");
+    background-size: cover;
     width: 65%;
     padding: 20px;
     text-align: left;
-    
+    height: 250px;   
+}
+
+.work-1 p {
+    top: 100px;
+    font-size: 60px;
+    position: relative;
 }
 
 /* END of MY WORK Styling */
@@ -179,3 +187,4 @@ header nav {
     color: #cc5500;   
 }
 /* END of CONTACT INFO Styling */
+
