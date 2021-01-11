@@ -131,9 +131,9 @@ header nav {
 }
 
 .work-examples {
-    background-image: url("../images/runbuddy.PNG");
-    background-size: cover;
-    width: 65%;
+    background-image: url("../images/bite.PNG");
+    background-size: stretch;
+    width: 59%;
     padding: 20px;
     text-align: left;
     height: 250px;   
