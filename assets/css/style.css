@@ -130,7 +130,7 @@ header nav {
     padding: 20px;
 }
 
-.work-examples {
+.work-examples-1 {
     background-image: url("../images/bite.PNG");
     background-size: stretch;
     width: 59%;
@@ -139,7 +139,22 @@ header nav {
     height: 250px;   
 }
 
+.work-examples-2 {
+    background-image: url("../images/Sugar\ Rush.PNG");
+    background-size: stretch;
+    width: 59%;
+    padding: 20px;
+    text-align: left;
+    height: 250px;   
+}
+
 .work-1 p {
+    top: 100px;
+    font-size: 60px;
+    position: relative;
+}
+
+.work-2 p {
     top: 100px;
     font-size: 60px;
     position: relative;
